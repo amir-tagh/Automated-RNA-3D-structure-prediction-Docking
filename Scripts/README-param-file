@@ -1,0 +1,10 @@
+Explanation of Parameters:
+SEQUENCE: The RNA sequence you want to model.
+SECONDARY_STRUCTURE: (Optional) Known secondary structure in dot-bracket notation.
+NSTRUCT: Number of structures to generate.
+PSEUDOKNOT: (Optional) Information about pseudoknots in the RNA structure.
+USE_FRAGMENT_LIBRARY: Boolean indicating whether to use a fragment library.
+FRAGMENT_LIBRARY_PATH: Path to the RNA fragment library.
+MAX_FRAGMENT_INSERTIONS: Maximum number of fragment insertions during modeling.
+ROSETTA_FLAGS: Additional Rosetta flags for customization.
+

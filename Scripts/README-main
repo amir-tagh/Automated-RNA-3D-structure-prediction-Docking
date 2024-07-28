@@ -1,0 +1,10 @@
+Usage:
+
+Prepare Your Directories: Ensure your fasta_files directory contains the input FASTA files and\
+the secondary_structure directory contains the corresponding secondary structure files (.ss files).
+
+Run the Bash Script: Execute the bash script to prepare and submit the jobs to the HPC cluster.
+
+Summary:
+The prepare_farfar2_jobs.py script will generate the necessary FASTA files, parameter files, and SLURM scripts for each RNA sequence.
+The submit_farfar2_jobs.sh script will then submit each generated SLURM script to the HPC cluster for processing.

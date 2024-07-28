@@ -1,0 +1,7 @@
+Explanation of the Bash Script:
+Define Directories: FASTA_DIR and OUTPUT_DIR are variables that store the paths to the directories containing the FASTA files and the output, respectively.
+Create Output Directory: The script ensures the output directory exists by creating it if it doesn't.
+Load Modules: The script includes comments for loading necessary modules using the module load command. Uncomment and modify these lines as needed based on your HPC environment.
+Activate Virtual Environment: If you're using a Python virtual environment, the script includes commented lines for activating and deactivating it. Uncomment and modify these lines as necessary.
+Run Python Script: The script calls the Python script with the FASTA directory and output directory as arguments.
+Echo Statement: At the end, an echo statement indicates that the job submission script has finished running.
